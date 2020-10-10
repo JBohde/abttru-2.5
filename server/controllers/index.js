@@ -3,6 +3,7 @@ const RecipeController = require('./RecipeController');
 const NoteController = require('./NoteController');
 const GroupLeaderController = require('./GroupLeaderController');
 const GroupController = require('./GroupController.js');
+const GroupMemberController = require('./GroupMemberController');
 
 module.exports = {
   UserController,
@@ -10,4 +11,5 @@ module.exports = {
   NoteController,
   GroupLeaderController,
   GroupController,
+  GroupMemberController
 };
